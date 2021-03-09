@@ -1,0 +1,33 @@
+extends base.pug
+block scripts 
+    script(src="/static/index.js")
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#sectionintro
+      div#section_main Welcome to Arya Dance Classes
+      div#second_heading Eat Sleep Dance Repeat
+    section#ourmission
+      h1 Our Mission
+      div#cards
+        div.card
+          img(src="../static/png1.png")
+          h2 Dance Perfection
+          p Our goal is to perfect your dance skills
+        div.card
+          img(src="../static/png2.png")
+          h2 Dance the way you like
+          p You can dance as your choice
+        div.card
+          img(src="../static/png3.png")
+          h2 Expert Teaching
+          p Expertise in every specific dance 
+    section#sectionsponsor
+      h3 Our sponsors
+      div.logos 
+        img(src="../static/spon1.png")
+        img(src="../static/spon2.png")
+        img(src="../static/spon3.png")

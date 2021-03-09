@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+
+/* _____________________FIRST SECTION OF INTRODUCTION_________________ */
+
+#sectionintro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    /* background:url(./static/dance.jpg) no-repeat center center/cover; */
+    background:url(./static/dance.jpg) no-repeat center center/cover;
+
+    /* position: relative; */
+    /* top: -32px; */
+    width: 100%;
+    color: white;
+}
+#section_main{
+    font-size: 4rem;
+    padding: 20px 0px;
+    font-family: 'Lobster', cursive;
+
+    
+}
+#second_heading{
+    font-size: 2rem;
+    font-family: 'Pangolin', cursive;
+}
+
+/* ________________Our Mission Section_____________________ */
+#ourmission{
+    display: flex;
+    background-color: blanchedalmond;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* position: absolute; */
+    /* top: -32px; */
+    /* border: 2px solid red; */
+    height: 400px;
+    margin: 0;
+    text-align: center;
+
+
+}
+#ourmission h1{
+    background-color: yellow;
+    padding: 6px 0px;
+    margin: 10px 0px;
+    font-family: 'Nerko One', cursive;
+    
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Nerko One', cursive;
+
+}
+.card{
+    
+    margin: 30px 20px;
+    padding: 10px 10px;
+    border: 2px solid mediumvioletred;
+    width: 30%;
+    border-radius: 50px;
+
+}
+.card img{
+    height: inherit;
+    width: 9rem;
+}
+/* ________________SECOND SECTION SPONSORS______________________ */
+
+#sectionsponsor{
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    /* top: -32px; */
+    border: 2px solid red;
+    height: 300px;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+#sectionsponsor h3{
+    font-size: 2rem;
+
+}
+.logos{
+
+}
+.logos img{
+    height: 9rem;
+    width: 12rem;
+    padding: 10px 10px;
+    margin: 20px 90px;
+}
+

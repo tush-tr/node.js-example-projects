@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+/* _____________HEADER SECTION NAVIGATION BAR_______________ */
+
+header{
+    position: fixed;
+    top: -5px;
+    width: 100%;
+}
+/* #navbar{} */
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    opacity: 0.7;
+
+}
+#navbar ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin: 0px 30px;
+    color: white;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    font-family: 'Stalinist One', cursive;
+}
+#navbar ul li:hover{
+    background-color: red;
+    color: white;
+    border-radius: 42px;
+    font-weight: bold;
+
+}
+
+/* ____________________FOOTER____________ */
+#footer{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    top: 103px;
+}

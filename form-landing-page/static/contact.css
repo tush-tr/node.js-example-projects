@@ -1,0 +1,52 @@
+/* section#contactform
+        h1 Contact Us
+        div#inputform
+            form(action="/contact",method="post")
+                input(type="text",class="myinput",name="name",placeholder="Enter your name")
+                input(type="phone",class="myinput",name="phone",placeholder="Enter your contact no.")
+                input(type="email",class="myinput",name="email",placeholder="Enter your email")
+                input(type="text",class="myinput",name="address",placeholder="Enter your address")
+                input(type="text",class="myinput",name="more",placeholder="more about you")
+                button(class="btn")
+                    | Submit */
+#contactform{
+    height: 590px;
+    margin: 60px 10px -100px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+#contactform h1{
+    text-align: center;
+    background-color: chocolate;
+    color: white;
+    padding: 6px 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myinput{
+    /* display: block; */
+    width: 30rem;
+    padding: 15px 35px;
+    margin: 10px 10px;
+    border: 2px solid red;
+    border-radius: 50px;
+    outline: none;
+}
+.btn{
+    padding: 5px 21px;
+    margin: 40px 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: transparent;
+    border-radius: 35px;
+    cursor: pointer;
+    outline: none;
+}

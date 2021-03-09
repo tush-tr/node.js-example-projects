@@ -1,0 +1,21 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Arya Dance Classes
+    block scripts
+    block style
+    style
+        include ../static/base.css
+  body
+    header
+      nav#navbar
+        ul 
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/contact") Contact us]
+    block content
+    block foot
+        footer#footer
+            | Copyrights reserved to aryadanceclasses.demo
