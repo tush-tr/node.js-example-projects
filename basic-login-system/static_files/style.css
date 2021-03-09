@@ -1,0 +1,42 @@
+.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    background-color: aqua;
+    height: 384px;
+    width: 650px;
+    margin: 11% auto;
+
+}
+#heading{
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0px 42px;
+    position: relative;
+    top: 10px;
+    border-radius: 50px;
+}
+
+
+#mainform{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin: 90px;
+}
+
+input{
+    padding: 7px 60px;
+    margin: 5px;
+}
+
+.btn{
+    margin: 15px 20px;
+    padding: 5px 5px;
+}
+
