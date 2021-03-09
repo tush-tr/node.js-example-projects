@@ -1,0 +1,64 @@
+body{
+    background-color: red;
+
+}
+nav{
+    padding: 10px 10px;
+    background-color: black;
+    color:white;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+li{
+    list-style: none;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+}
+
+input, textarea{
+    display: block;
+    padding: 5px 5px;
+    margin: 5px auto;
+    border: 2px solid black;
+    width: 500px;
+
+
+
+
+}
+.container{
+    background-color: royalblue;
+}
+
+#btn{
+    display: block;
+
+    margin: 7px auto;
+    text-align: center;
+    height: 2rem;
+    width: 5rem;
+    background-color: cadetblue;
+    color: red;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50px;
+}

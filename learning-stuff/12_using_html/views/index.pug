@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+        include ../static_files/style.css
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+        </ul>
+    </nav>
+    <h1>Want the gym membership now get 80%off </h1>
+    <p>#{message}</p>
+    <div id="container">
+
+            
+            <!-- <p>hello this is para</p>
+            
+            <button>#{button_name}</button> -->
+            <form action="/" method="POST" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <textarea name="address" id="address" cols="30" rows="5" placeholder="enter your address"></textarea>
+            <textarea name="more" id="" cols="30" rows="5" placeholder="more about you"></textarea>
+            <button id="btn">Submit</button>
+            </form>
+            
+        
+    </div>
+</body>
+
+</html>

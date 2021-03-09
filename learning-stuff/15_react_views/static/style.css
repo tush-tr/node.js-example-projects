@@ -1,0 +1,25 @@
+*{
+    background-color: aqua;
+
+}
+.Name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main{
+    
+    background-color: chocolate;
+
+}
+
+
+
+
+
+
+
