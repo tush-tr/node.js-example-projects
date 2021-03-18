@@ -303,3 +303,101 @@ We use this operator in the prefix and postfix forms, forms ++operand and operan
 ### 10. Decrement (--)
 We use this operator in the prefix and postfix forms, forms --operand and operand--.
 
+<h1 id="functions">Functions</h1>
+Functions in JavaScript are declared using the function keyword. A function declaration creates a function that's a Function object having all the properties, methods, and behaviors of Function objects. By default, functions return the value undefined; to return any other value, the function must have a return statement that consists of the return keyword followed by the value to be returned (this can be a literal value, a variable, or even a call to a function).
+
+```js
+function greetings(name) {
+    console.log("Hello, " + name);
+}
+
+function sum(a, b) {
+    return a + b;
+}
+
+function main(name, a, b) {
+    greetings(name);
+    console.log(sum(a, b));
+}
+```
+## The Function Expression
+A function expression is very similar to (and has almost the same syntax as) a function statement. The main difference between a function expression and a function statement is the function name, which can be omitted from a function expression to create an anonymous function. Function expressions are often used as Immediately Invoked Function Expressions (IIFEs), which run as soon as they're defined.
+
+### Unnamed Function Expression
+
+```js
+function main(input) {
+
+    /**
+    *   Defines an unnamed function and assigns it to a variable named square. 
+    *   @param {Number} x
+    *   @returns {Number} The value of argument squared.         
+    **/
+    var square = function(x) {
+        return x * x;
+    };
+
+    // Print the value returned by passing input as x to the 
+    // anonymous function referenced by variable square
+    console.log(square(input));
+}
+```
+
+### Named Function Expression
+```js
+function main(factN, fibN) {
+
+    /**
+    *   Defines a named recursive function as a property of the math variable. 
+    *   @param {Number} n
+    *   @returns {Number} The value of n factorial.         
+    **/
+    var math = {
+        // Declare the factorial property
+        factorial: 
+            // Declare the function as the property's value
+            function factorial(n) {
+                if (n > 1) {
+                    return n * factorial(n - 1);
+                }
+                // Returns 1 if n <= 1
+                return 1;
+            }
+    };
+
+    /**
+    *   Defines a named recursive function referenced by the fib variable. 
+    *   @param {Number} n
+    *   @returns {Number} The value of fibonacci(n).         
+    **/
+    var fib = function fibonacci(n){
+        if (n > 2) {
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+        else if (n < 1) {
+            return 0;
+        }
+        // else, return 1
+        return 1;
+    }
+
+    // Print the value returned by passing factN as n to the 
+    // function referenced by variable math:
+    console.log(math.factorial(factN));
+    // and by passing fibN as n to the function referenced by variable fib:
+    console.log(fib(fibN));
+
+}
+```
+
+## Recursion
+This is an extremely important algorithmic concept that involves splitting a problem into two parts: a base case and a recursive case. The problem is divided into smaller subproblems which are then solved recursively until such time as they are small enough and meet some base case; once the base case is met, the solutions for each subproblem are combined and their result is the answer to the entire problem.
+
+
+
+If the base case is not met, the function's recursive case calls the function again with modified values. The code must be structured in such a way that the base case is reachable after some number of iterations, meaning that each subsequent modified value should bring you closer and closer to the base case; otherwise, you'll be stuck in the dreaded infinite loop!
+
+
+
+It's important to note that any task that can be accomplished recursively can also be performed iteratively (i.e., through a sequence of repeatable steps). Recursive solutions tend to be easier to read and understand than iterative ones, but there are often performance drawbacks associated with recursive solutions that you're going to want to evaluate on a case-by-case basis. Typically, we use recursion when each recursive call significantly reduces the size of the problem (e.g., if we can halve the dataset during each recursive call). Regardless of the advisability of recursively solving a problem, it's extremely important to practice and understand how to recursively solve problems.
+
