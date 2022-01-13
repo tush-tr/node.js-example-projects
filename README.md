@@ -99,7 +99,7 @@ Projects that I made during learning backend development with node js and expres
 </tr>
 
 <tr>
-<td><a href="loginsystem-cookies-sessions">Image Uploader</a></td>
+<td><a href="loginsystem-cookies-sessions">Login System</a></td>
 <td>Node js</td>
 <td>Express, express-session<br>passport, passportlocal etc.</td>
 <td>-----</td>
