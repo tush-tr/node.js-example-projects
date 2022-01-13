@@ -1,0 +1,26 @@
+{
+  "name": "udemy-authentication",
+  "version": "1.0.0",
+  "description": "We're creating our website or web app for users to use then these users are going to start generating data in the website. They might like certain posts, they might interact with other users, there might be messages created or recipes created. There's always going to be some user data created. And in order to associate those pieces of data with individual users, we need to create an account for each user so that they would sign up to our website using a username and password and we would essentially create kind of like an ID card for them to uniquely identify them on our database and to save all of the data that they generate onto that account.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.11.18",
+    "mongoose-encryption": "^2.0.3",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0"
+  }
+}
