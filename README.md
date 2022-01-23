@@ -106,6 +106,18 @@ Projects that I made during learning backend development with node js and expres
 <td></td>
 <td>A simple login system <br>user can register and login and see secrets <br>setup session and cookies in node js</td>
 </tr>
+
+<tr>
+<td><a href="Blog-Website">Blog Website</a></td>
+<td>Node js</td>
+<td>Express</td>
+<td>-----</td>
+<td>--</td>
+<td>A simple blog website</td>
+</tr>
+
+
+
 </table>
 
 
