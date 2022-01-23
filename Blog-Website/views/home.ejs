@@ -1,0 +1,20 @@
+<%- include('partials/header'); -%>
+    <h1>Home</h1>
+    <p>
+        <%= homecontent %>
+    </p>
+    <% postcontent.forEach((element)=>{ %>
+        <div>
+            <h3>
+                <%= element.title %>
+            </h3>
+            <p>
+                <%= element.content.slice(0,50) %> ...
+                    <!-- We can use substring method also -->
+                    <a href="/blogs/<%= element.title %>">Read more</a>
+                    <% }) %>
+                        
+            </p>
+        </div>
+
+        <%- include('partials/footer'); -%>
