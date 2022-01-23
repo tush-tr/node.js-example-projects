@@ -102,8 +102,8 @@ Projects that I made during learning backend development with node js and expres
 <td><a href="loginsystem-cookies-sessions">Login System</a></td>
 <td>Node js</td>
 <td>Express, express-session<br>passport, passportlocal etc.</td>
-<td>-----</td>
-<td></td>
+<td>EJS</td>
+<td>MongoDB</td>
 <td>A simple login system <br>user can register and login and see secrets <br>setup session and cookies in node js</td>
 </tr>
 
