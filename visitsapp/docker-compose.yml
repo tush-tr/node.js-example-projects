@@ -1,0 +1,9 @@
+version: '3' # specifies the docker-compose version
+# service basically same refers to container
+services:
+  redis-server:
+    image: 'redis'
+  node-app:
+    build: .
+    ports:
+      - "4001:8081"
